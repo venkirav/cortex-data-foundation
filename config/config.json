@@ -19,8 +19,8 @@
     "testDataProject": "kittycorn-public",
     "k9": {
         "datasets": {
-            "processing": "K9_PROCESSING",
-            "reporting": "K9_REPORTING"
+            "processing": "CORTEX_SAP_K9_PROCESSING",
+            "reporting": "CORTEX_SAP_K9_REPORTING"
         }
     },
     "DataMesh": {
@@ -32,10 +32,10 @@
     "SAP": {
         "deployCDC": true,
         "datasets": {
-            "cdc": "",
-            "raw": "",
-            "ml": "ML_MODELS",
-            "reporting": "REPORTING"
+            "cdc": "CORTEX_SAP_CDC",
+            "raw": "CORTEX_SAP_RAW",
+            "ml": "CORTEX_SAP_ML_MODELS",
+            "reporting": "CORTEX_SAP_REPORTING"
         },
         "SQLFlavor": "s4",
         "mandt": "100"
