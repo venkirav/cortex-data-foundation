@@ -1,14 +1,14 @@
 {
     "testData": true,
     "deploySAP": true,
-    "deploySFDC": true,
-    "deployMarketing": true,
-    "deployDataMesh": true,
+    "deploySFDC": false,
+    "deployMarketing": false,
+    "deployDataMesh": false,
     "turboMode": true,
-    "projectIdSource": "",
-    "projectIdTarget": "",
-    "targetBucket": "",
-    "location": "US",
+    "projectIdSource": "necdemo-428509",
+    "projectIdTarget": "necdemo-428509",
+    "targetBucket": "cortex-necdemo-428509-asia-northeast1",
+    "location": "asia-northeast1",
     "languages": [
         "E",
         "S"
